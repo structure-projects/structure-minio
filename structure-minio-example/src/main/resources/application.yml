@@ -1,0 +1,8 @@
+server:
+  port: 19001
+structure:
+  minio:
+    url: http://123.56.46.91:9000
+    access-key: admin
+    secret-key: 57jMhE2cJAI9Gu26
+    endpoint-enable: true
