@@ -35,6 +35,7 @@ import java.util.Map;
  * @version 1.0.1
  * @since 2021/7/17 14:06
  */
+
 @Data
 @AllArgsConstructor
 public class MinioObject {
@@ -76,5 +77,4 @@ public class MinioObject {
 		this.contentType = os.contentType();
 		this.httpHeaders = os.httpHeaders();
 	}
-
 }

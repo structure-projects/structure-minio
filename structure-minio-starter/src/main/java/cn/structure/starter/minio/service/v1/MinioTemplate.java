@@ -114,6 +114,7 @@ public class MinioTemplate{
 	 * @param objectName 文件名称
 	 * @param expires    失效时间（以秒为单位），默认是7天，不得大于七天。
 	 * @return url
+	 * @
 	 */
 	@SneakyThrows
 	public String getObjectURL(String bucketName, String objectName, Integer expires) {
@@ -170,11 +171,14 @@ public class MinioTemplate{
 	}
 
 	/**
-	 * 删除文件
-	 *
+	 * Your method description
+	 * <p>
+	 * @since  createTime 2021/7/17 14:06
+	 * @author chuck
 	 * @param bucketName bucket名称
 	 * @param objectName 文件名称
 	 * @throws Exception https://docs.minio.io/cn/java-client-api-reference.html#removeObject
+	 * @return void
 	 */
 	public void removeObject(String bucketName, String objectName) throws Exception {
 		minioClient.removeObject(bucketName, objectName);
