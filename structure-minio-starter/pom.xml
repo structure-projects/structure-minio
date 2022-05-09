@@ -5,15 +5,15 @@
     <parent>
         <groupId>cn.structured</groupId>
         <artifactId>structure-dependencies</artifactId>
-        <version>1.0.5.RELEASE</version>
+        <version>1.0.9.RELEASE</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
     <packaging>jar</packaging>
     <artifactId>structure-minio-starter</artifactId>
     <version>1.0.2</version>
-    <name>structure-minio</name>
-    <description>structure-minio</description>
+    <name>structure-minio-starter</name>
+    <description>structure-minio-starter</description>
 
     <url>https://projects.structured.cn/structure-minio</url>
     <inceptionYear>2021</inceptionYear>
