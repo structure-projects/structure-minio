@@ -16,7 +16,7 @@ import java.util.Map;
 
 /**
  * <p>
- * Minio控制器
+ * Minio控制器 自定义实现可忽略 endpoint-enable
  * </p>
  *
  * @author chuck
